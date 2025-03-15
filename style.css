@@ -43,8 +43,10 @@ input{
     padding: 18px 0px;
     border: none !important;
 }
+input:active{
+    border: none !important;
+}
 .search-box{
-    margin-right: 600px;
     margin-top: 48px;
     gap: 24px;
     width: 480px;
@@ -70,6 +72,7 @@ select{
      
 }
 .box{
+    gap: 635px;
     display: flex;
 }
 .countries{
