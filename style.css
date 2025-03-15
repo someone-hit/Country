@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1380px;
+    margin: 0 auto;
+}
+.header-title{
+    font-family: Nunito Sans;
+font-weight: 800;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0px;
+}
+nav button{
+    display: flex;
+    border: none;
+    background-color: transparent;
+}
+nav{
+    padding-top: 23px;
+    padding-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.button-nav{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+header{
+    box-shadow: 0px 2px 4px 0px #0000000E;
+
+}
+input{
+    padding: 18px 0px;
+    border: none !important;
+}
+.search-box{
+    margin-right: 600px;
+    margin-top: 48px;
+    gap: 24px;
+    width: 480px;
+    box-shadow: 0px 2px 9px 0px #0000000E;
+    display: flex;
+    
+}
+.search-box img{
+    padding-left: 32px;
+}
+.select-box{
+    box-shadow: 0px 2px 9px 0px #0000000E;
+    width: 200px;
+}
+select{
+    padding: 18px 47px 18px 24px;
+    border: none;
+}
+.sort{
+    margin-top: 45px;
+    width: 200px;
+    box-shadow: 0px 2px 9px 0px #0000000E;
+     
+}
+.box{
+    display: flex;
+}
+.countries{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr;
+    list-style: none;
+    gap: 30px;
+    margin-top: 48px;
+}
+.countries img{
+    width: 260px;
+    height: 160px;
+    border-radius: 5px;
+}
+.common{
+    font-family: Nunito Sans;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    margin-bottom: 20px;
+    margin-top: 24px;
+}
+.country{
+    box-shadow: 0px 0px 7px 2px #00000008;
+     width: 264px;
+     height: 336px;
+     margin-bottom: 75px;
+     border-radius: 5px;
+}
+.country-info{
+    margin-left: 24px;
+}
+.country-info p{
+    margin-bottom: 8px;
+}
+.population{
+    font-family: Nunito Sans;
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0px;
+color: rgb(93, 88, 88);
+}
+.population span{
+    font-family: Nunito Sans;
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0px;
+color: black;
+}
+.Region{
+    font-family: Nunito Sans;
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0px;
+color: rgb(93, 88, 88);
+}
+.Region span{
+    font-family: Nunito Sans;
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0px;
+color: black;
+}
+.capital{
+    font-family: Nunito Sans;
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0px;
+color: rgb(93, 88, 88);
+}
+.capital span{
+    font-family: Nunito Sans;
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0px;
+color: black;
+}
